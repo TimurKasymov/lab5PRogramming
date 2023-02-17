@@ -3,6 +3,9 @@ import interfaces.Loadable;
 import models.*;
 
 import java.io.*;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
@@ -18,7 +21,7 @@ public class CollectionManager implements CollectionCustom<Product> {
     private Loadable fileManager;
 
     /** Field for checking the program was started */
-    private boolean wasStart;
+    private LocalDateTime initializationTime;
     /** Container for storing used commands */
 
 
@@ -26,6 +29,7 @@ public class CollectionManager implements CollectionCustom<Product> {
     public CollectionManager(Loadable fileManager) {
         this.fileManager = fileManager;
         products = fileManager.load();
+        initializationTime = LocalDateTime.now(ZoneId.of("Europe/Moscow"));
     }
 
     @Override
@@ -68,6 +72,16 @@ public class CollectionManager implements CollectionCustom<Product> {
     @Override
     public LinkedList<Product> get() {
         return products;
+    }
+
+    @Override
+    public LocalDateTime getInitializationTime() {
+        return initializationTime;
+    }
+
+    @Override
+    public Class getElementType() {
+        return Product.class;
     }
 
     @Override

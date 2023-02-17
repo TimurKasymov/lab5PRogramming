@@ -76,7 +76,7 @@ public class Product implements Comparable<Product> {
         "coordinates:\n" +
         " ".repeat(2) + "X: " + coordinates.getX() + "\n" +
          " ".repeat(2) + "Y: " + coordinates.getY() + "\n" +
-        "creation date: " + creationDate.format(DateTimeFormatter.ofPattern("dd/MM/YYYY HH:MM:ss")) + "\n" +
+        "creation date: " + creationDate.format(DateTimeFormatter.ofPattern("dd/MM/YYYY HH:mm")) + "\n" +
                 "price: " + price + "\n" + "manufacture cost: " + manufactureCost;
 
         if(unitOfMeasure != null){

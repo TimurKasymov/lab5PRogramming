@@ -38,6 +38,7 @@ public class CommandManager {
         commandsMap.put("show", new ShowCommand(collectionManager));
         commandsMap.put("update_by_id", new UpdateByIdCommand(collectionManager));
         commandsMap.put("history", new HistoryCommand(collectionManager));
+        commandsMap.put("help", new HelpCommand(collectionManager));
         commandsMap.put("info", new InfoCommand(collectionManager));
         commandsMap.put("execute_script", new ExecuteScriptCommand(collectionManager));
         commandsMap.put("filter_by_manufacture_cost", new FilterByManufactureCostCommand(collectionManager));
@@ -89,10 +90,11 @@ public class CommandManager {
             return "read and execute a script from specified file. You should enter path to file after entering a command.";
         }
     }
-    private class InfoCommand implements Command{
+
+    private class HelpCommand implements Command{
 
         private CollectionCustom<Product> productCollection;
-        public InfoCommand(CollectionCustom<Product> productCollection){
+        public HelpCommand(CollectionCustom<Product> productCollection){
             this.productCollection = productCollection;
         }
 

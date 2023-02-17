@@ -1,22 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <products>
     <product>
-        <id>1</id>
-        <name>dfdf</name>
+        <id>5</id>
+        <name>sdff</name>
         <coordinates>
-            <x>34.0</x>
-            <y>43.0</y>
+            <x>343.0</x>
+            <y>334.0</y>
         </coordinates>
-        <creationDate>2023-02-11T02:02:16.0764159</creationDate>
-        <price>32.0</price>
+        <creationDate>2023-02-11T13:39:22.2841171</creationDate>
+        <price>34.0</price>
         <manufactureCost>34.0</manufactureCost>
+        <unitOfMeasure>KILOGRAMS</unitOfMeasure>
+    </product>
+    <product>
+        <id>4</id>
+        <name>sds</name>
+        <coordinates>
+            <x>8.9899999999998996E18</x>
+            <y>9.8888887E17</y>
+        </coordinates>
+        <creationDate>2023-02-11T13:35:23.6171513</creationDate>
+        <price>323.0</price>
+        <manufactureCost>232.0</manufactureCost>
         <unitOfMeasure>LITERS</unitOfMeasure>
-        <manufacturer>
-            <id>1</id>
-            <name>dfdf</name>
-            <annualTurnover>434</annualTurnover>
-            <type>TRUST</type>
-        </manufacturer>
+    </product>
+    <product>
+        <id>3</id>
+        <name>sdsd</name>
+        <coordinates>
+            <x>43.0</x>
+            <y>45.0</y>
+        </coordinates>
+        <creationDate>2023-02-11T12:14:40.7436127</creationDate>
+        <price>543.0</price>
+        <manufactureCost>354.0</manufactureCost>
     </product>
     <product>
         <id>2</id>
@@ -37,38 +54,21 @@
         </manufacturer>
     </product>
     <product>
-        <id>3</id>
-        <name>sdsd</name>
+        <id>1</id>
+        <name>dfdf</name>
         <coordinates>
-            <x>43.0</x>
-            <y>45.0</y>
+            <x>34.0</x>
+            <y>43.0</y>
         </coordinates>
-        <creationDate>2023-02-11T12:14:40.7436127</creationDate>
-        <price>543.0</price>
-        <manufactureCost>354.0</manufactureCost>
-    </product>
-    <product>
-        <id>4</id>
-        <name>sds</name>
-        <coordinates>
-            <x>8.9899999999998996E18</x>
-            <y>9.8888887E17</y>
-        </coordinates>
-        <creationDate>2023-02-11T13:35:23.6171513</creationDate>
-        <price>323.0</price>
-        <manufactureCost>232.0</manufactureCost>
-        <unitOfMeasure>LITERS</unitOfMeasure>
-    </product>
-    <product>
-        <id>5</id>
-        <name>sdff</name>
-        <coordinates>
-            <x>343.0</x>
-            <y>334.0</y>
-        </coordinates>
-        <creationDate>2023-02-11T13:39:22.2841171</creationDate>
-        <price>34.0</price>
+        <creationDate>2023-02-11T02:02:16.0764159</creationDate>
+        <price>32.0</price>
         <manufactureCost>34.0</manufactureCost>
-        <unitOfMeasure>KILOGRAMS</unitOfMeasure>
+        <unitOfMeasure>LITERS</unitOfMeasure>
+        <manufacturer>
+            <id>1</id>
+            <name>dfdf</name>
+            <annualTurnover>434</annualTurnover>
+            <type>TRUST</type>
+        </manufacturer>
     </product>
 </products>

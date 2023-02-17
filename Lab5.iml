@@ -13,5 +13,6 @@
     <orderEntry type="library" exported="" name="jakarta.xml.bind-api-2.3.2" level="project" />
     <orderEntry type="library" name="jaxb-ri-2.3" level="project" />
     <orderEntry type="library" name="codemodel" level="project" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
 </module>
